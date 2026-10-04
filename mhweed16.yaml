@@ -1,0 +1,20 @@
+path: D:/proj/MHWeed16
+train: train.txt
+val: val.txt
+test: test.txt
+names:
+  0: weed_0
+  1: weed_1
+  2: weed_2
+  3: weed_3
+  4: weed_4
+  5: weed_5
+  6: weed_6
+  7: weed_7
+  8: weed_8
+  9: weed_9
+  10: weed_10
+  11: weed_11
+  12: weed_12
+  13: weed_13
+  14: weed_14
