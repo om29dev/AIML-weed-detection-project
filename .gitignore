@@ -8,3 +8,6 @@ MH-Weed16
 dataset.zip
 labels.cache
 *.pdf
+*.html
+final_ipynb
+.jupyter
