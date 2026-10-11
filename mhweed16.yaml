@@ -1,4 +1,4 @@
-path: D:/proj/MHWeed16/mhweedaiml
+path: C:/Users/Admin/Desktop/mhweedaiml
 train: train.txt
 val: val.txt
 test: test.txt

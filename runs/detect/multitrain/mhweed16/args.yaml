@@ -1,18 +1,18 @@
 task: detect
 mode: train
-model: D:\proj\MHWeed16\mhweedaiml\runs\detect\multitrain\yolo11n.pt
+model: C:\Users\Admin\Desktop\mhweedaiml\runs\detect\multitrain\baseline_yolo26n.pt
 data: mhweed16.yaml
 epochs: 30
 time: null
 patience: 100
-batch: 8
+batch: 64
 imgsz: 640
 save: false
 save_period: -1
 cache: false
-device: xpu
+device: '0'
 workers: 8
-project: D:\proj\MHWeed16\mhweedaiml\runs\detect\multitrain
+project: C:\Users\Admin\Desktop\mhweedaiml\runs\detect\multitrain
 name: mhweed16
 exist_ok: false
 pretrained: true
@@ -65,7 +65,6 @@ show_conf: true
 show_boxes: true
 line_width: null
 format: torchscript
-keras: false
 optimize: false
 dynamic: false
 simplify: true
@@ -112,4 +111,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: tracktrack.yaml
-save_dir: D:\proj\MHWeed16\mhweedaiml\runs\detect\multitrain\mhweed16
+save_dir: C:\Users\Admin\Desktop\mhweedaiml\runs\detect\multitrain\mhweed16

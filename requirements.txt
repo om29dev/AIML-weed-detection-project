@@ -1,0 +1,26 @@
+# Forces pip to pull advanced GPU wheels compiled explicitly for CUDA 13.2
+--extra-index-url https://download.pytorch.org/whl/cu132
+
+# Deep Learning Frameworks (Forced Blackwell GPU Integration)
+torch==2.14.1
+torchvision>=0.29.0
+ultralytics>=8.4.173
+onnxruntime-gpu>=1.19.0
+
+# Interactive Workspace & Process Analytics
+jupyter>=1.0.0
+ipykernel>=6.0.0
+tqdm>=4.66.0
+
+# Visual Computing & Automated Image Partitioning
+opencv-python>=4.8.0.0
+numpy>=1.24.0
+pillow>=10.0.0
+sahi>=0.11.14
+
+# Quantitative Processing, Graphs & Machine Learning
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pyyaml>=6.0
+scikit-learn>=1.2.0
