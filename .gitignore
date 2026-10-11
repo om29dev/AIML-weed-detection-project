@@ -6,5 +6,3 @@ data/
 .ipynb_checkpoints
 MH-Weed16
 dataset.zip
-runs
-weights

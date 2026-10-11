@@ -1,0 +1,8 @@
+Model Variant,Layers,Parameters,GFLOPs,FP32 Size (MB),FP16 Size (MB),Size Reduction (%),Latency (ms),Throughput (FPS)
+baseline_yolo11n,181,2592765,6.51,10.12,5.11,49.6,30.3,33.0
+ghost_yolo11n,211,1489173,4.94,5.9,3.0,70.4,28.25,35.4
+dw_yolo11n,163,1680925,4.63,6.63,3.36,66.9,50.65,19.7
+ghost_dw_hybrid_yolo11n,201,1454813,5.09,5.76,2.93,71.1,35.17,28.4
+no_psa_yolo11n,163,2343037,6.25,9.15,4.62,54.4,34.46,29.0
+slim_neck_yolo11n,197,1956469,5.58,7.69,3.89,61.6,29.66,33.7
+micro_scaled_yolo11n,209,914985,4.58,3.72,1.9,81.2,26.87,37.2
