@@ -1,0 +1,24 @@
+{
+  "results": {
+    "mhweed16": {
+      "metrics/precision(B)": 0.32543,
+      "metrics/recall(B)": 0.35486,
+      "metrics/mAP50(B)": 0.30476,
+      "metrics/mAP50-95(B)": 0.13924,
+      "val/box_loss": 1.16646,
+      "val/cls_loss": 2.65888,
+      "val/dfl_loss": 3.89819,
+      "fitness": 0.13924
+    }
+  },
+  "mean": {
+    "metrics/mAP50-95(B)": 0.13924,
+    "fitness": 0.13924,
+    "val/box_loss": 1.16646,
+    "metrics/mAP50(B)": 0.30476,
+    "val/cls_loss": 2.65888,
+    "val/dfl_loss": 3.89819,
+    "metrics/recall(B)": 0.35486,
+    "metrics/precision(B)": 0.32543
+  }
+}

@@ -1,0 +1,31 @@
+# 30/30 iterations complete ✅ (24590.03s)
+# Results saved to C:\Users\Admin\Desktop\mhweedaiml\runs\detect\tune-2
+# Best fitness=0.24509 observed at iteration 13
+# Best fitness metrics are {'metrics/precision(B)': 0.54701, 'metrics/recall(B)': 0.46092, 'metrics/mAP50(B)': 0.50472, 'metrics/mAP50-95(B)': 0.24509, 'val/box_loss': 1.83744, 'val/cls_loss': 1.42663, 'val/dfl_loss': 0.41251, 'fitness': 0.24509}
+# Best fitness model is C:\Users\Admin\Desktop\mhweedaiml\runs\detect\tune-2\weights
+lr0: 0.00937
+lrf: 0.01954
+momentum: 0.92734
+weight_decay: 0.0005
+warmup_epochs: 3.59567
+warmup_momentum: 0.87582
+box: 7.17622
+cls: 1.52564
+cls_pw: 0.51242
+dfl: 0.4
+hsv_h: 0.01598
+hsv_s: 0.7
+hsv_v: 0.40464
+degrees: 0.0
+translate: 0.29108
+scale: 0.32766
+shear: 2.2259
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.0
+bgr: 0.0
+mosaic: 0.86718
+mixup: 0.0
+cutmix: 0.0
+copy_paste: 0.26484
+close_mosaic: 10
